@@ -17,6 +17,12 @@ $this->title = 'Loengnoktha school';
 
 
 ?>
+<h1 class='mt-3 mb-3'>ระบบบันทึกการจ่ายยาโรงเรียนเลิงนกทา</h1>
+<p>
+    <?= Html::a('จ่ายยา', ['history/create'], ['class' => 'btn btn-success mb-5']) ?>
+</p>
+
+
 <h1 class='mt-3 mb-3'>รายชื่อนักเรียน</h1>
 <p>
     <?= Html::a('เพิ่มรายชื่อนักเรียน', ['student/create'], ['class' => 'btn btn-success']) ?>
@@ -55,7 +61,7 @@ $this->title = 'Loengnoktha school';
     ]); ?>
 
 
-<h1 class='mt-3 mb-3'>รายชื่อยา</h1>
+<h1 class='mt-3 mb-3 mt-5'>รายชื่อยา</h1>
 <p>
     <?= Html::a('เพิ่มรายชื่อยา', ['medicine/create'], ['class' => 'btn btn-success']) ?>
 </p>
