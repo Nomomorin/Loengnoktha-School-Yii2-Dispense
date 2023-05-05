@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=database_loengnoktha_school',
+    'dsn' => 'mysql:host=localhost;dbname=ttt',
     'username' => 'root',
     'password' => '',
     'charset' => 'utf8',
